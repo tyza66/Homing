@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/liaotian/liaotian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gouwu/gouwu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/qita/qita",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "首页",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom",
+		"scrollIndicator":"none"
+	},
+	"tabBar": {
+			"selectedColor":"#FE5E00",
+			"list": [
+				{
+					"pagePath": "pages/index/index",
+					"iconPath":"static/icons/shouyea1.png",
+					"selectedIconPath":"static/icons/shouyea11.png"
+				},
+				{
+					"pagePath": "pages/liaotian/liaotian",
+					"iconPath":"static/icons/shouyea2.png",
+					"selectedIconPath":"static/icons/shouyea21.png"
+				},
+				{
+					"pagePath": "pages/gouwu/gouwu",
+					"iconPath":"static/icons/shouyea3.png",
+					"selectedIconPath":"static/icons/shouyea31.png"
+				},
+				{
+					"pagePath": "pages/qita/qita",
+					"iconPath":"static/icons/shouyea4.png",
+					"selectedIconPath":"static/icons/shouyea41.png"
+				}
+			],
+			"backgroundColor":"#FDFDFD",
+			"fontSize":"10px",
+			"iconWidth":"40px"
+		}
+}
